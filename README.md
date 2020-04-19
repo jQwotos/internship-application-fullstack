@@ -2,13 +2,13 @@
 
 ### Notes
 
-After using a few different solutions from AWS lambda, STDLib and GCP Functions, I found that Cloudflare workers were extremely easy to use. The new `wrangler dev` made it easy to progressively build out the worker and test.
+After using a few different solutions from AWS lambda, STDLib and GCP Functions, I found that Cloudflare workers was extremely easy to use and deployed in milliseconds to a domain setup with clcoudflare. The new `wrangler dev` made it easy to progressively build out the worker and test.
 
 ## Extra Credits
 
 ### Changing copy/URLs
 
-![image](example.png)
+![image](example.PNG)
 
 - The HTMLRewriter API provided a neat way of modifying static content
     - Using `element handlers`
@@ -21,4 +21,4 @@ After using a few different solutions from AWS lambda, STDLib and GCP Functions,
 Using the wrangler environments, I can have two different deployments
 1. "Fake" Production https://jasonle.org/routeflare
 
-2. "Fake" Development on workers.dev http.s://routeflare.jqwotos.workers.dev/
+2. "Fake" Development on workers.dev https://routeflare.jqwotos.workers.dev/
