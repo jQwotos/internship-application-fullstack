@@ -2,7 +2,7 @@
 
 ### Notes
 
-After using a few different solutions from AWS lambda, STDLib and GCP Functions, I found that Cloudflare workers were extremely easy to use. The new `wrangler dev` made it easy to progressively build out the worker and test.
+After using a few different solutions from AWS lambda, STDLib and GCP Functions, I found that Cloudflare workers was extremely easy to use and deployed in milliseconds to a domain setup with clcoudflare. The new `wrangler dev` made it easy to progressively build out the worker and test.
 
 ## Extra Credits
 
