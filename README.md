@@ -21,4 +21,4 @@ After using a few different solutions from AWS lambda, STDLib and GCP Functions,
 Using the wrangler environments, I can have two different deployments
 1. "Fake" Production https://jasonle.org/routeflare
 
-2. "Fake" Development on workers.dev http.s://routeflare.jqwotos.workers.dev/
+2. "Fake" Development on workers.dev https://routeflare.jqwotos.workers.dev/
