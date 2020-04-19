@@ -39,6 +39,7 @@ async function getVariants() {
   return request.json();
 }
 
+// Cloudflare A/B Testing https://developers.cloudflare.com/workers/templates/pages/ab_testing/
 /**
  * Attemps to find the persisting variant
  *
@@ -100,6 +101,7 @@ const rewriter = new HTMLRewriter()
     .on('p#description', new DescriptionRewriter())
     .on('a#url', new LinkRewriter());
 
+// Constants
 const newTitle = "Routeflare";
 const prependMainTitle = "Routeflare: ";
 const newLink = {
