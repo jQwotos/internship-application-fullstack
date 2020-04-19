@@ -1,0 +1,8 @@
+name = "routeflare"
+type = "javascript"
+account_id = "e79aea1383691f9815ec0db69c75be3b"
+workers_dev = true
+
+[env.production]
+route = "jasonle.org/routeflare"
+zone_id = "fae7fd94dfa61dade0a59eb920bbd986"
