@@ -8,7 +8,7 @@ After using a few different solutions from AWS lambda, STDLib and GCP Functions,
 
 ### Changing copy/URLs
 
-![image](example.png)
+![image](example.PNG)
 
 - The HTMLRewriter API provided a neat way of modifying static content
     - Using `element handlers`
