@@ -22,3 +22,7 @@ Using the wrangler environments, I can have two different deployments
 1. "Fake" Production https://jasonle.org/routeflare
 
 2. "Fake" Development on workers.dev https://routeflare.jqwotos.workers.dev/
+
+## Improvements and Reflection
+- Instead of placing the HTMLRewriter classes within `index.js` they can be separated into a separate tooling package to clean up the code.
+- As we're working with two static sites, the cookie storage will always force the user to what's stored on the cookie. This is so that we don't waste time on a query for the variants. But if we were to use dynamic variants which may be updated in the future, then we should fetch the variants each time and check if the one stored in the cookie still exists, otherwise assign the user a new one.
